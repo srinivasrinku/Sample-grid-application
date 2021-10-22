@@ -1,0 +1,23 @@
+
+.container{
+    .row{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    background-color: aquamarine;
+    .img-container{
+        position: relative;
+        .info-img{
+            width: 500px;
+        }
+        .btn{
+            position:absolute;
+            top: 0px;
+            bottom: 0;
+            margin: auto;
+            height: 40px;
+            left: 0;
+            right: 0;
+        }
+    }
+}

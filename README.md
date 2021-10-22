@@ -25,3 +25,28 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Alternativeky use the docker file to run the application.
+
+## To build the docker file.
+
+docker build --tag sample-grid-app .
+
+## To see the docker images in the host machine
+
+docker images
+
+## To check the details of our running container
+
+docker ps
+
+## To run the docker container in locally.
+
+docker run -d -p 4200:80 sample-grid-app:latest
+
+## To stop the docker container
+
+docker stop -t 60 <containerId>
+
+
+

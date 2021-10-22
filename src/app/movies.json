@@ -1,0 +1,32 @@
+[  
+    {  
+      "id": 1,  
+      "name": "RRR",  
+      "img": "./assets/rrr-movie-logo-and-motion-poster-launched.jpg",  
+      "description": "RRR is an upcoming Indian Telugu-language period action drama film directed by S. S. ... It is a fictional story about two Indian revolutionaries, Alluri Sitarama Raju (Charan) and Komaram Bheem (Rama Rao), who fought against the British Raj and Nizam of Hyderabad respectively."  
+    },
+    {  
+        "id": 2,  
+        "name": "Goodachari",  
+        "img": "./assets/goodachari.jpg",
+        "description": "Gopi is recruited into RAW, but on his graduation day, he is implicated in a plot to kill two RAW officials. Declared a wanted terrorist, Gopi fights to clear his name and find the people responsible."  
+    },  
+    {  
+        "id": 3,  
+        "name": "Most eligible bachelor",  
+        "img": "./assets/MEB-m-2.jpg",
+        "description": "A bachelor living in the U.S. returns to India determined to find a wife and falls for a stand-up comedian who appears uninterested in being romantically pursued."  
+    },  
+    {  
+        "id": 4,  
+        "name": "Dear Comrade",  
+        "img": "./assets/Dear_Comrade_.jpg",
+        "description": "Bobby, a student union leader with anger issues, falls in love with Lily, a state-level cricketer. However, his temperament poses an obstacle in his path to being united with Lily."  
+    },
+    {  
+        "id": 5,
+        "name": "V",  
+        "img": "./assets/v.jpg",
+        "description": "A mystery man named V sets out to exact revenge for his wife's brutal murder. However, he must evade a police officer, who is determined to catch him."  
+    }
+  ]  

@@ -1,0 +1,12 @@
+
+  <div class="overlay">
+    <div class="popup">
+        <h2>{{currentData.name}}</h2>
+        <img class="info-img img-fluid" src={{currentData.img}} />   
+        <a class="close" (click)="disablePopup()">&times;</a>
+        <div class="content">
+        <h2>overview</h2>
+        <p>{{currentData.description}}</p>
+        </div>
+    </div>
+</div>

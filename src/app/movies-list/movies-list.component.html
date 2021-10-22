@@ -1,0 +1,11 @@
+
+<div class="container">
+    <div class="row" *ngFor="let movie of movies">
+      <div class="col-12 img-container">
+        <img class="info-img img-fluid" src={{movie.img}} />            
+        <button class="btn btn-primary" (click)="openDialogue(movie.id)">Learn more</button>
+      </div>
+    </div>
+    <app-popup *ngIf="popup" [currentData]="data" (disableEvent)='closeDialogue($event)'></app-popup>
+</div>
+  
